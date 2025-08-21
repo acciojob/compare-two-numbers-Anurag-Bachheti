@@ -1,11 +1,9 @@
-const first = document.getElementById("one");
-const second = document.getElementById("two");
-const btn = document.getElementById("btn");
+const num1 = prompt("Enter the first number:");
+const num2 = prompt("Enter the second number:");
 
-btn.addEventListener("click", () => {
-	if(first.value === second.value){
-	alert{true}
-		}else{
-	alert(false)
-	}
-})
+// Compare after converting to numbers
+if (Number(num1) === Number(num2)) {
+    alert(true);
+} else {
+    alert(false);
+}
